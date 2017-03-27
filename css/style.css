@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin-ext');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #665858;
+}
+.ui-sortable {
+    min-height: 80px;
+}
+.btn-delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+#board {
+    text-align: center;
+    color: greenyellow;
+    margin-top: 20px;
+}
+
+.board h1 {
+    margin: 20px;
+}
+.column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 150px;
+}
+
+.column {
+    order: 1;
+    min-width: 300px;
+    min-height: 50vh;
+    background-color: #070303;
+    margin-left: 20px;
+    list-style: none;
+    position: relative;
+}
+
+.create-column {
+    box-shadow: 0;
+    border: 2px solid white;
+    width: 120px;
+    height: 30px;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+
+.card {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    padding: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.card-list {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+}
+.card-description {
+    margin: 2px 0;
+}
+
+.card-placeholder {
+    box-sizing: border-box;
+    display: block;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 2px solid lightgrey;
+    background-color: lightblue;
+}
+
+.btn-delete {
+    box-shadow: 0;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 25px;
+    height: 25px;
+    color: white;
+    float: right;
+    margin: 4px;
+    background: black;
+    font-weight: 600;
+}
+
+.btn-delete:hover {
+    background: black;
+}
+
+.column-add-card {
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin: 20px 100px 20px 100px;
+    background: black;
+    text-decoration: none;
+}
+
+.column-add-card:hover {
+    background: lightblue;
+}
